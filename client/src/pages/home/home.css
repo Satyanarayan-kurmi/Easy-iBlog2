@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+}
+@media only screen and (max-width: 740px) {
+    .home{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 484px) {
+    .home{
+        position: relative;
+        top: -30px;
+    }
+}
